@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "npx tailwindcss -i ./styles/main.css -o ./dist/output.css --watch"
+    "tailwindcss": "npx tailwindcss -i ./styles/main.css -o ./dist/output.css --watch",
+    "prettier" : "npx prettier --write **/*.html"
   },
   "author": "Anna khizhnyakova",
   "license": "ISC",
